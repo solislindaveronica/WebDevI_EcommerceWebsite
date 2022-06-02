@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>SOLSISU</title>
+<meta charset="utf-8">
+<link href="craftstore.css" rel="stylesheet">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #cbcbcb;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #cbcbcb;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #5e2f00;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #aa6d04;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #5f3d02;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+
+<body>
+<div id="WrapperPage">
+
+<header>
+<h1>SOLSISU</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a> &nbsp; &nbsp;
+<a href="about.html"> About Us </a> &nbsp; &nbsp;
+<a href="products.html"> Products  </a> &nbsp; &nbsp;
+<a href="contact.html">  Contact Us  </a> &nbsp; &nbsp;
+<a href="SupportUs.html"> Support Us </a> &nbsp; &nbsp;
+<a href="careers.html"> Careers </a> &nbsp; &nbsp;
+</nav>
+
+<div id = "Main-Index"> </div>
+
+<h2> Shoping Products </h2>  
+<main id="products">
+ <article>		 
+<!--Family Name Sign | Custom Wood Sign | Personalized Key Holder Gift -->
+               <div class="card">
+ <h3>Family Name Sign | Custom Wood Sign | Personalized Key Holder Gift</h3>
+       <img src="0002.jpg" class="floatright" alt="Personalized Family Name Sign" width="200" height="186"> 
+		  <p class="price">$149.99</p>
+  <p>Personalized Gift, Handmade with care<br>
+  Material: Wood<br> 
+  Lettering Shown: Wood Burned <br> 
+  Stain Shown: Dark Walnut <br>
+ Height: 12 inches<br>
+ Width: 30 inches <br>
+ Key Hooks: 5<br></p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                      </form>
+                         </div>
+						 
+<!--Family Name Sign | Custom Wood Sign | Personalized Key Holder Gift -->
+               <div class="card">
+ <h3>Custom Wood Cutting Board & wooden rolling pin | Personalized Cutting Board</h3>
+       <img src="0003.jpg" class="floatright" alt="Personalized Cutting Board" width="200" height="186"> 
+		  <p class="price">$169.99</p>
+		  <p>
+customized wood burned Cutting Board with Phone Stand, surrounding deep juice groove, Organic Butcher Block for Meat and Vegetable,BPA Free Wooden Carving Board
+Made of premium quality solid acacia wood, which is resistant to water, stain and odour absorption. 
+Each board color might vary due to the material of wood, making it unique in every way. 
+Perfect gift idea and a must to make your house a home. Because item is personalized there is no refunds or cancellations.
+		  </p>
+  <p>Personalized Gift, Handmade <br>
+ Material: Wood <br> 
+ Customization: Wood Burned <br> 
+ length: 16in<br>
+ Width: 11in <br>
+ </p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                      </form>
+                         </div>
+
+<!-- cutting board sam & neli -->
+               <div class="card">
+ <h3>Couples' name and EST</h3>
+       <img src="sam.jpg" class="floatright" alt="stickman keychain" width="300" height="250"> 
+		  <p class="price">$139.99</p>
+  <p>Personalized Gift, Handmade wood burned <br>
+  Customized wood burned Cutting Board with Phone Stand, surrounding deep juice groove, Organic Butcher Block for Meat and Vegetable,BPA Free Wooden Carving Board
+Made of premium quality solid acacia wood, which is resistant to water, stain and odour absorption. 
+Each board color might vary due to the material of wood, making it unique in every way. 
+Perfect gift idea and a must to make your house a home. Because item is personalized there is no refunds or cancellations.<br> 
+Length: 16in<br>
+Width: 11in <br>
+ </p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                      </form>
+                         </div>
+						 
+<!-- Business Logo   -->
+						 <div class="card">
+ <h3>Business Customized Logo Portrait</h3>
+       <img src="solis.jpg" class="floatright" alt="stickman keychain" width="300" height="250"> 
+		  <p class="price">$179.99</p>
+  <p>Personalized business Logo Design, Handmade wood burned <br>
+  Customized business logo wood burned portrait. Please send your logo when looking to purchase an logo wood burned design. <br> 
+Length: 12in<br>
+Width: 24in <br>
+ </p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                     </form>
+                         </div>
+						 
+	<!-- Dino Lamp and name din  -->
+						 <div class="card">
+ <h3>COMBO! Customized Dino solar lamp & Dino name decoration</h3>
+       <img src="dino.jpg" class="floatright" alt="stickman keychain" width="300" height="250"> 
+		  <p class="price">$14.99</p>
+  <p>Personalized Gift, Handmade <br>
+  COMBO! Customized Dino solar lamp & Dino name decoratio, great goft for children<br>
+  nngth: 10in<br>
+Width: 5in <br>
+ </p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                      </form>
+                         </div>
+						 
+						  <!-- bookbag hanger  -->
+						 <div class="card">
+ <h3> Shaped Wood Wall Hook  </h3>
+       <img src="heart.jpg" class="floatright" alt="stickman keychain" width="300" height="250"> 
+		  <p class="price">$29.99</p>
+  <p>Personalized Gift, Handmade, kids present, Room decor, presonalized bookbag/jacket hanger.<br>
+Length: 11in<br>
+Width: 7in <br>
+ </p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                      </form>
+                         </div>
+						 
+						  <!--   -->
+						 <div class="card">
+ <h3>knitted macrame Stickman</h3>
+       <img src="hm.jpg" class="floatright" alt="stickman keychain" width="300" height="250"> 
+		  <p class="price">$14.99</p>
+  <p>Personalized Gift, Handmade, keychain <br>
+  Material: Wood and macrame yarn, metal keychain ring<br> 
+Length: 5in<br>
+Width: 3in <br>
+ </p>
+               <form method="post" action="#">
+                    <input type="submit" value="Add to Cart">
+                      </form>
+                         </div>
+
+</article>
+</main>
+
+<button class="open-button" onclick="openForm()">Chat with Us</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label id="msg" ><b>Question or Comments</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+<footer id="footer">
+Copyright &copy; 2022 SOLSISU. All Rights Reserved.<br>
+<a href="mailto:solsisu@solsisu.com">solsisu@solsisu.com</a>
+</footer>
+</div>
+</body>
+</html>

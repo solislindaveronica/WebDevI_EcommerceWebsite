@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>SOLSISU</title>
+<meta charset="utf-8">
+<link href="craftstore.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="WrapperPage">
+
+<header>
+<h1>SOLSISU</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a> &nbsp;&nbsp;
+<a href="about.html"> About Us </a> &nbsp;&nbsp;
+<a href="products.html"> Products  </a> &nbsp;&nbsp;
+<a href="contact.html">  Contact Us  </a> &nbsp;&nbsp;
+<a href="SupportUs.html"> Support Us </a> &nbsp;&nbsp;
+<a href="careers.html"> Careers </a> &nbsp;&nbsp;
+</nav>
+
+<div id = "Main-Index"> </div>
+<article>
+<h2> Support Us </h2>
+<p class="aboutus-story"><b> Our Story </b> <br> <br>
+ My name is Linda Solis, I am the Co-founder of this amazing project. 
+ I grew up in the back of the yards - south side of Chicago IL. 
+ I learned how to work with wood and Woodburn during my teenage year thanks to my overprotective parents. 
+ My parents had me in all types of sports and clubs to keep me away from joining the streets and gang related activities.
+ The church Immaculate Conception Catholic Church and Iglesias Santa Cruz offered wood shop classes for teens and that is where I learned the art of wood burning.
+Every piece I make Is made with the love and appreciation for all those people who contributed to make my childhood a success. 
+My love to building wood burning art also called pyrography is thanks to my professors and parents who made it possible and supported me along my way. 
+Now that I am a college student studying to become a software engineer or related and continue to grow my skills, I am funding this store to continue to grow as a person and help while we climb.
+ </p>
+<p class="aboutus-story"><b> Our Mission </b> <br> <br>
+Help while we Climb is our mission when it comes to see our store for a long-term vision. 
+We want to grow this company by providing exceptional customer service and continue to provide the best products to our customers. 
+And as our store continues to progress, we would like to fund a % of our sales and accept donations to build wood shops in minority neiborhoods like the one I grew up in. 
+Help other while our customers buy from our store is a win for everyone. Spreading knowledge and help young adults experience the joy of building wood products from scratch. 
+And show them that there is way more to see and build in the world than what they will see in their neighborhoods. 
+Be a contributor to a project that will help children and contribute to the building of a successful future generations.
+</p>
+
+</article>
+
+<article>
+      <h2>Make Donations</h2>
+      <div id="errorText"></div>
+      <form action="#">
+       
+         <fieldset id="Donations" class="text">
+            <legend>Donations</legend>
+            <label for="donFName">First Name</label>
+            <input id="donFName" name="BillingFirstName" type="text" required="required" />
+           <br><br> <label for="donLName">Last Name</label>
+            <input id="donLName" name="BillingLastName" type="text" required="required" />
+           <br><br> <label for="donStreet">Street Address</label>
+            <input id="donStreet" name="BillingStreet" type="text" required="required" />
+           <br><br> <label for="donCity">City</label>
+            <input id="donCity" name="BillingCity" type="text" required="required" />
+           <br><br> <label for="donState">State</label>
+            <select id="donState" name="BillingState" required="required">
+               <option value="">AL</option>
+               <option value="">AK</option>
+               <option value="">AZ</option>
+               <option value="">AR</option>
+               <option value="">CA</option>
+               <option value="">CO</option>
+               <option value="">CT</option>
+               <option value="">DE</option>
+               <option value="">DC</option>
+               <option value="">FL</option>
+               <option value="">GA</option>
+               <option value="">HI</option>
+               <option value="">ID</option>
+               <option value="">IL</option>
+               <option value="">IN</option>
+               <option value="">IA</option>
+               <option value="">KS</option>
+               <option value="">KY</option>
+               <option value="">LA</option>
+               <option value="">ME</option>
+               <option value="">MD</option>
+               <option value="">MA</option>
+               <option value="">MI</option>
+               <option value="">MN</option>
+               <option value="">MS</option>
+               <option value="">MO</option>
+               <option value="">MT</option>
+               <option value="">NE</option>
+               <option value="">NV</option>
+               <option value="">NH</option>
+               <option value="">NJ</option>
+               <option value="">NM</option>
+               <option value="">NY</option>
+               <option value="">NC</option>
+               <option value="">ND</option>
+               <option value="">OH</option>
+               <option value="">OK</option>
+               <option value="">OR</option>
+               <option value="">PA</option>
+               <option value="">RI</option>
+               <option value="">SC</option>
+               <option value="">SD</option>
+               <option value="">TN</option>
+               <option value="">TX</option>
+               <option value="">UT</option>
+               <option value="">VT</option>
+               <option value="">VA</option>
+               <option value="">WA</option>
+               <option value="">WV</option>
+               <option value="">WI</option>
+               <option value="">WY</option>
+            </select>
+            <br><br><label for="billZip">Zip</label>
+            <input id="billZip" name="BillingZip" type="number" required="required" />
+            <br><br><label for="billPhone">Phone</label>
+            <input id="billPhone" name="BillingPhone" type="number" required="required" />
+            <div class="errorMessage"></div>
+         </fieldset>
+<br>
+         <fieldset id="paymentInfo" class="text">
+            <legend>Payment</legend>
+            <div id="cards" class="inline">
+               <input id="visa" name="PaymentType" type="radio" value="Visa" />
+               <label for="visa">Visa</label>
+               <input id="mc" name="PaymentType" type="radio" value="MC" />
+               <label for="mc">Master Card</label>
+               <input id="discover" name="PaymentType" type="radio" value="Discover" />
+               <label for="discover">Discover</label>
+               <input id="amex" name="PaymentType" type="radio" value="AmEx" />
+               <label for="amex">American Express</label>
+            </div>
+            <div>
+               <br><label for="ccNum">Card #</label>
+               <input id="ccNum" name="CardNumber" type="number" required="required" />
+               <div id="ccNumErrorMessage"></div>
+            </div>
+            <div>
+               <label></label>
+               <div class="inline" id="exp">
+                  <br><label for="expMo" id="expMoLabel">Expiration Month</label>
+                  <select id="expMo" name="ExpMonth" required="required">
+                     <option value="">01</option>
+                     <option value="">02</option>
+                     <option value="">03</option>
+                     <option value="">04</option>
+                     <option value="">05</option>
+                     <option value="">06</option>
+                     <option value="">07</option>
+                     <option value="">08</option>
+                     <option value="">09</option>
+                     <option value="">10</option>
+                     <option value="">11</option>
+                     <option value="">12</option>
+                  </select>
+                  <label for="expYr" id="expYrLabel">Expiration Year</label>
+                  <select id="expYr" name="ExpYear" required="required">
+                     <option value="">2022</option>
+                     <option value="">2023</option>
+                     <option value="">2024</option>
+                     <option value="">2025</option>
+                     <option value="">2026</option>
+                  </select>
+               </div>
+               <br><label for="cvv">CVV</label> 
+               <input id="cvv" name="CVVValue" type="number" required="required" /> 
+               <div id="cvvErrorMessage"></div>
+            </div>
+            <div class="errorMessage"></div>
+		 
+		 </fieldset>
+		 <br>
+		 <div id="buttonContainer">
+            <input type="submit" value="Place Donation" id="donationButton" />
+         </div>
+	
+	<br>
+      </form>
+   </article>
+
+<footer id="footer">
+Copyright &copy; 2022 SOLSISU. All Rights Reserved.<br>
+<a href="mailto:solsisu@solsisu.com">solsisu@solsisu.com</a>
+</footer>
+</div>
+</body>
+</html>

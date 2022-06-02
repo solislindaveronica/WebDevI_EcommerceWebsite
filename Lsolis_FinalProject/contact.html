@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>SOLSISU</title>
+<meta charset="utf-8">
+<link href="craftstore.css" rel="stylesheet">
+<style> 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+</head>
+
+<body>
+<div id="WrapperPage">
+
+<header>
+<h1>SOLSISU</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a> &nbsp;&nbsp;
+<a href="about.html"> About Us </a> &nbsp;&nbsp;
+<a href="products.html"> Products  </a> &nbsp;&nbsp;
+<a href="contact.html">  Contact Us  </a> &nbsp;&nbsp;
+<a href="SupportUs.html"> Support Us </a> &nbsp;&nbsp;
+<a href="careers.html"> Careers </a> &nbsp;&nbsp;
+
+</nav>
+
+<div id = "Main-Index"> </div>
+
+<h2> Contact Us</h2>
+
+<p>In keeping with health officials' recommendations regarding the <strong><em>COVID-19 Pandemic</em></strong>,
+our staff are available by email but may take some extra time to return communication. 
+We are being as productive as possible, but we might experience delay, labor shortage, supply chain distribution, and other 
+impacts that may affect the product estimated shipment.
+ </p>
+
+<table class="center" id="contactbox">
+  <tr>
+      <th>Days</th>
+	  <th>Description</th>
+	  <th>Waiting Time</th>
+	  <th>Hours - Central Time Zone </th>
+  </tr>
+  <tr>
+      <td>Monday</td>
+	  <td class="text">Waiting time depends on volume </td>
+	  <td>3 - 5 hours</td>
+	  <td>9:00AM - 4:00PM  </td>
+  </tr>
+    <tr>
+      <td>Tuesday</td>
+	  <td class="text">Temporary Operating Hours</td>
+	  <td>2 - 3 hours</td>
+	  <td>9:00AM - 4:00PM </td>
+  </tr>
+    <tr>
+      <td>Wednesday</td>
+	  <td class="text">Temporary Operating Hours</td>
+	  <td>2 - 3 hours</td>
+	  <td>24hrs </td>
+  </tr> 
+  
+  <tr>
+      <td>Thursday</td>
+	  <td class="text">Temporary Operating Hours</td>
+	  <td>2 - 3 hours</td>
+	  <td>9:00AM - 4:00PM </td>
+  </tr>
+  
+  <tr>
+      <td>Friday</td>
+	  <td class="text">Closed due to order Preparation</td>
+	  <td>12 - 24 hrs</td>
+	  <td>9:00AM - 4:00PM </td>
+  </tr>
+  
+  <tr>
+      <td>Saturday</td>
+	  <td class="text">Closed due to order Preparation</td>
+	  <td>12 - 24 hrs</td>
+	  <td>Only Urgent Matters </td>
+  </tr>
+  
+  <tr>
+      <td>Sunday</td>
+	  <td class="text">Orders are Shipped</td>
+	  <td>12 - 24 hrs</td>
+	  <td> Only Urgent Matters </td>
+  </tr>
+
+</table>
+
+<br>
+
+<form method="post" action="#">
+
+<fieldset>
+<legend> To get in contact with us: </legend>
+<label for="myFName">* First Name: </label><input type="text" id="myFName" name="myFName" required="required"> <br><br>
+<label for="myLName">* Last Name: </label><input type="text" id="myLName" name="myLName" required="required"> <br><br>
+<label for="myEmail">* E-mail: </label><input type="email" id="myEmail" name="myEmail" required="required"> <br><br>
+
+
+<label for="mDate"> Choose current date</label>
+<input type="date" name="mDate" id="mDate">
+
+        <p>
+             <label>* Select an Inquiry</label>
+             <select id = "myList">
+               <option value = "1">Special Order</option>
+               <option value = "2">Order Information</option>
+               <option value = "3">More Information on a product</option>
+               <option value = "4">Other</option>
+             </select>
+        </p>
+      
+		<p>
+             <label>* Select your Country</label>
+             <select id = "myLists">
+               <option value = "1">United States of America</option>
+			   <option value = "2">Other</option>
+              
+             </select>
+          </p>
+		  
+		  <p>
+             <label>* Select Your State</label>
+             <select id = "myListts">
+               <option value = "1">Illinois</option>
+			   <option value = "2">Indiana</option>
+			   <option value = "2">Michigan</option>
+			   <option value = "2">Wisconsin</option>
+			   <option value = "2">Iowa</option>
+			   <option value = "2">Missouri</option>
+			   <option value = "2">Kentucky</option>
+			   <option value = "2">Other</option>  
+			   
+             </select>
+          </p>
+
+<!-- Configure a label element to contain the text “Comments”. Associate the label with the scrolling text box form control. The sample code is -->
+<label id="message">Comments</label>   <br>
+<textarea name="comments" id="comments" rows="4" cols="50"></textarea> <br><br>
+<input type="submit" value="Contact"> <input type="reset">
+</fieldset>
+</form>
+<br>
+<footer id="footer">
+Copyright &copy; 2022 SOLSISU. All Rights Reserved.<br>
+<a href="mailto:solsisu@solsisu.com">solsisu@solsisu.com</a>
+</footer>
+</div>
+</body>
+</html>

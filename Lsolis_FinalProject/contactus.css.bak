@@ -1,0 +1,5 @@
+main { padding-left: 2em;
+        padding-right: 2em;
+	       display: block;
+	         margin-left: 170px;
+padding-top: 2em;}
